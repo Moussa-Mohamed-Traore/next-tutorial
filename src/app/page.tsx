@@ -1,3 +1,4 @@
+import { Counter } from "@/components/counter";
 import Image from "next/image";
 
 export default function Home() {
@@ -48,6 +49,7 @@ export default function Home() {
               width={16}
               height={16}
             />
+            <Counter />
             Deploy Now
           </a>
           <a
